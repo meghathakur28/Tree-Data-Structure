@@ -20,7 +20,6 @@ class HelloWorld {
                 return null;
             }
             Node newNode=new Node(nodes[indx]);
-            System.out.print(newNode.data+" ");
             newNode.left=buildtree(nodes);
             newNode.right=buildtree(nodes);
             return newNode;
